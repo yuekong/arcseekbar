@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ArcSeekBar">
+        <attr name="arcStrokeWidth" format="dimension"/>
+        <attr name="arcStrokeCap" format="enum">
+            <enum name="BUTT" value="1"/>
+            <enum name="SQUARE" value="2"/>
+            <enum name="ROUND" value="3"/>
+        </attr>
+        <attr name="arcNormalColor" format="color"/>
+        <attr name="arcProgressColor" format="color"/>
+        <attr name="arcStartAngle" format="integer"/>
+        <attr name="arcSweepAngle" format="integer"/>
+        <attr name="arcMax" format="integer"/>
+        <attr name="arcProgress" format="integer"/>
+        <attr name="arcDuration" format="integer"/>
+        <attr name="arcLabelText" format="string"/>
+        <attr name="arcLabelTextColor" format="color"/>
+        <attr name="arcLabelPercentageTextColor" format="color"/>
+        <attr name="arcLabelTextSize" format="dimension"/>
+        <attr name="arcLabelPaddingTop" format="dimension"/>
+        <attr name="arcLabelPaddingBottom" format="dimension"/>
+        <attr name="arcLabelPaddingLeft" format="dimension"/>
+        <attr name="arcLabelPaddingRight" format="dimension"/>
+        <attr name="arcShowLabel" format="boolean"/>
+        <attr name="arcShowTick" format="boolean"/>
+        <attr name="arcTickStrokeWidth" format="dimension"/>
+        <attr name="arcTickPadding" format="dimension"/>
+        <attr name="arcTickSplitAngle" format="integer"/>
+        <attr name="arcBlockAngle" format="integer"/>
+        <attr name="arcThumbStrokeWidth" format="dimension"/>
+        <attr name="arcThumbColor" format="color"/>
+        <attr name="arcThumbRadius" format="dimension"/>
+        <attr name="arcThumbRadiusEnlarges" format="dimension"/>
+        <attr name="arcShowThumb" format="boolean"/>
+        <attr name="arcAllowableOffsets" format="dimension"/>
+        <attr name="arcEnabledDrag" format="boolean"/>
+        <attr name="arcEnabledSingle" format="boolean"/>
+        <attr name="arcShowShadow" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="ArcColorSeekBar">
+        <attr name="arc_width" format="dimension|reference" />
+        <attr name="arc_open_angle" format="float" />
+        <attr name="arc_rotate_angle" format="float" />
+        <attr name="arc_colors" format="reference" />
+        <attr name="arc_border_width" format="dimension|reference" />
+        <attr name="arc_border_color" format="color|reference" />
+        <attr name="arc_max" format="integer|reference" />
+        <attr name="arc_min" format="integer|reference" />
+        <attr name="arc_progress" format="integer|reference" />
+        <attr name="arc_thumb_width" format="dimension|reference" />
+        <attr name="arc_thumb_color" format="color|reference" />
+        <attr name="arc_thumb_radius" format="dimension|reference" />
+        <attr name="arc_thumb_shadow_radius" format="dimension|reference" />
+        <attr name="arc_thumb_shadow_color" format="color|reference" />
+        <attr name="arc_thumb_mode" format="integer|dimension">
+            <enum name="STROKE" value="0" />
+            <enum name="FILL" value="1" />
+            <enum name="FILL_STROKE" value="2" />
+        </attr>
+        <attr name="arc_shadow_radius" format="dimension|reference" />
+    </declare-styleable>
+    <declare-styleable name="SmoothProgressBar">
+        <attr name="spbStyle" format="reference"/>
+        <attr name="spb_color" format="color"/>
+        <attr name="spb_stroke_width" format="dimension"/>
+        <attr name="spb_stroke_separator_length" format="dimension"/>
+        <attr name="spb_sections_count" format="integer"/>
+        <attr name="spb_speed" format="float"/>
+        <attr name="spb_progressiveStart_speed" format="float"/>
+        <attr name="spb_progressiveStop_speed" format="float"/>
+        <attr name="spb_interpolator" format="enum">
+            <enum name="spb_interpolator_accelerate" value="0"/>
+            <enum name="spb_interpolator_linear" value="1"/>
+            <enum name="spb_interpolator_acceleratedecelerate" value="2"/>
+            <enum name="spb_interpolator_decelerate" value="3"/>
+        </attr>
+        <attr name="spb_reversed" format="boolean"/>
+        <attr name="spb_mirror_mode" format="boolean"/>
+        <attr name="spb_colors" format="reference"/>
+        <attr name="spb_progressiveStart_activated" format="boolean"/>
+        <attr name="spb_background" format="reference"/>
+        <attr name="spb_generate_background_with_colors" format="boolean"/>
+        <attr name="spb_gradients" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="RectProgress">
+        <attr name="progressValue" format="integer" />
+        <attr name="progressMax" format="integer" />
+        <attr name="bgColor" format="color" />
+        <attr name="rectRadius" format="dimension" />
+        <attr name="iconPadding" format="dimension" />
+        <attr name="progressColor" format="color" />
+        <attr name="iconSrc" format="reference" />
+        <attr name="progressOrientation">
+            <enum name="vertical" value="1" />
+            <enum name="horizontal" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
